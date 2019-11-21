@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
+import Palindrome from "./components/Palindrome";
+import ChuckNorris from "./components/ChuckNorris";
+import Stats from "./components/Stats";
 import "./App.css";
 
-function App() {
-  return <>Hello</>;
-}
+const App = () => {
+  const [numbers, setNumbers] = useState("");
+  const [stats, setStats] = useState({});
+
+  return (
+    <div className="container">
+      <h1>Code Screen</h1>
+      <Palindrome />
+      <ChuckNorris />
+      <Stats />
+    </div>
+  );
+};
 
 export default App;

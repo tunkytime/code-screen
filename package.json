@@ -1,9 +1,10 @@
 {
-  "homepage": "https://tunkytime.github.io/code-screen",
+  "homepage": "https://tunkytime.github.io/code-screen/",
   "name": "code-screen",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
     "gh-pages": "^2.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
