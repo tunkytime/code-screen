@@ -5,9 +5,6 @@ import Stats from "./components/Stats";
 import "./App.css";
 
 const App = () => {
-  const [numbers, setNumbers] = useState("");
-  const [stats, setStats] = useState({});
-
   return (
     <div className="container">
       <h1>Code Screen</h1>
